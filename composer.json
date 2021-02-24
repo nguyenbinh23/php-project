@@ -1,0 +1,12 @@
+{
+    "require": {
+        "php": ">=5.3.2",
+        "klein/klein": "^2.1"
+    },
+    "autoload": {
+        "classmap": [
+            "models/phone.php",
+            "models/product.php"
+        ]
+    }
+}
