@@ -1,21 +1,21 @@
 <?php
 
-use NguyenApp\Models\Phone;
+
 
 require_once '../vendor/autoload.php';
+require_once '../config/config.php';
 
-$router = new \Klein\Klein();
+/*
+var_dump($_REQUEST);
+var_dump($_POST);
+var_dump($_COOKIE);
+var_dump($_SERVER);
+var_dump(!empty($_SESSION) ? $_SESSION : 'nope' );
+*/
 
-$router->respond('GET','/hello-world',function() {
-
-    $phone = new Phone;
 
 
-    return $phone->getName();
-});
 
-$router->respond('GET','/alibaba',function() {
-    return 'alibaba';
-});
 
-$router->dispatch();
+
+require_once 'routes.php';

@@ -6,53 +6,182 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit27db00f12d4eb254a9daf4827dfcbf71
 {
+    public static $files = array (
+        'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
+        '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
+        '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
+        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
+        '0d59ee240a4cd96ddbb4ff164fccea4d' => __DIR__ . '/..' . '/symfony/polyfill-php73/bootstrap.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
+        'S' => 
+        array (
+            'Symfony\\Polyfill\\Php80\\' => 23,
+            'Symfony\\Polyfill\\Php73\\' => 23,
+            'Symfony\\Polyfill\\Mbstring\\' => 26,
+            'Symfony\\Polyfill\\Ctype\\' => 23,
+            'Symfony\\Contracts\\Service\\' => 26,
+            'Symfony\\Contracts\\HttpClient\\' => 29,
+            'Symfony\\Contracts\\EventDispatcher\\' => 34,
+            'Symfony\\Contracts\\Cache\\' => 24,
+            'Symfony\\Component\\VarExporter\\' => 30,
+            'Symfony\\Component\\VarDumper\\' => 28,
+            'Symfony\\Component\\Routing\\' => 26,
+            'Symfony\\Component\\HttpKernel\\' => 29,
+            'Symfony\\Component\\HttpFoundation\\' => 33,
+            'Symfony\\Component\\Finder\\' => 25,
+            'Symfony\\Component\\Filesystem\\' => 29,
+            'Symfony\\Component\\EventDispatcher\\' => 34,
+            'Symfony\\Component\\ErrorHandler\\' => 31,
+            'Symfony\\Component\\DependencyInjection\\' => 38,
+            'Symfony\\Component\\Config\\' => 25,
+            'Symfony\\Component\\Cache\\' => 24,
+            'Symfony\\Bundle\\FrameworkBundle\\' => 31,
+        ),
+        'P' => 
+        array (
+            'Psr\\Log\\' => 8,
+            'Psr\\EventDispatcher\\' => 20,
+            'Psr\\Container\\' => 14,
+            'Psr\\Cache\\' => 10,
+        ),
         'K' => 
         array (
             'Klein\\' => 6,
         ),
+        'A' => 
+        array (
+            'AutoMapperPlus\\AutoMapperPlusBundle\\' => 36,
+            'AutoMapperPlus\\' => 15,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'Symfony\\Polyfill\\Php80\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-php80',
+        ),
+        'Symfony\\Polyfill\\Php73\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-php73',
+        ),
+        'Symfony\\Polyfill\\Mbstring\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
+        ),
+        'Symfony\\Polyfill\\Ctype\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
+        ),
+        'Symfony\\Contracts\\Service\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/service-contracts',
+        ),
+        'Symfony\\Contracts\\HttpClient\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/http-client-contracts',
+        ),
+        'Symfony\\Contracts\\EventDispatcher\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/event-dispatcher-contracts',
+        ),
+        'Symfony\\Contracts\\Cache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/cache-contracts',
+        ),
+        'Symfony\\Component\\VarExporter\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/var-exporter',
+        ),
+        'Symfony\\Component\\VarDumper\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/var-dumper',
+        ),
+        'Symfony\\Component\\Routing\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/routing',
+        ),
+        'Symfony\\Component\\HttpKernel\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/http-kernel',
+        ),
+        'Symfony\\Component\\HttpFoundation\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/http-foundation',
+        ),
+        'Symfony\\Component\\Finder\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/finder',
+        ),
+        'Symfony\\Component\\Filesystem\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/filesystem',
+        ),
+        'Symfony\\Component\\EventDispatcher\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/event-dispatcher',
+        ),
+        'Symfony\\Component\\ErrorHandler\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/error-handler',
+        ),
+        'Symfony\\Component\\DependencyInjection\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/dependency-injection',
+        ),
+        'Symfony\\Component\\Config\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/config',
+        ),
+        'Symfony\\Component\\Cache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/cache',
+        ),
+        'Symfony\\Bundle\\FrameworkBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/framework-bundle',
+        ),
+        'Psr\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
+        'Psr\\EventDispatcher\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/event-dispatcher/src',
+        ),
+        'Psr\\Container\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/container/src',
+        ),
+        'Psr\\Cache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/cache/src',
+        ),
         'Klein\\' => 
         array (
             0 => __DIR__ . '/..' . '/klein/klein/src/Klein',
         ),
+        'AutoMapperPlus\\AutoMapperPlusBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/mark-gerarts/automapper-plus-bundle',
+        ),
+        'AutoMapperPlus\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/mark-gerarts/auto-mapper-plus/src',
+        ),
     );
 
     public static $classMap = array (
+        'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
-        'Klein\\AbstractResponse' => __DIR__ . '/..' . '/klein/klein/src/Klein/AbstractResponse.php',
-        'Klein\\AbstractRouteFactory' => __DIR__ . '/..' . '/klein/klein/src/Klein/AbstractRouteFactory.php',
-        'Klein\\App' => __DIR__ . '/..' . '/klein/klein/src/Klein/App.php',
-        'Klein\\DataCollection\\DataCollection' => __DIR__ . '/..' . '/klein/klein/src/Klein/DataCollection/DataCollection.php',
-        'Klein\\DataCollection\\HeaderDataCollection' => __DIR__ . '/..' . '/klein/klein/src/Klein/DataCollection/HeaderDataCollection.php',
-        'Klein\\DataCollection\\ResponseCookieDataCollection' => __DIR__ . '/..' . '/klein/klein/src/Klein/DataCollection/ResponseCookieDataCollection.php',
-        'Klein\\DataCollection\\RouteCollection' => __DIR__ . '/..' . '/klein/klein/src/Klein/DataCollection/RouteCollection.php',
-        'Klein\\DataCollection\\ServerDataCollection' => __DIR__ . '/..' . '/klein/klein/src/Klein/DataCollection/ServerDataCollection.php',
-        'Klein\\Exceptions\\DispatchHaltedException' => __DIR__ . '/..' . '/klein/klein/src/Klein/Exceptions/DispatchHaltedException.php',
-        'Klein\\Exceptions\\DuplicateServiceException' => __DIR__ . '/..' . '/klein/klein/src/Klein/Exceptions/DuplicateServiceException.php',
-        'Klein\\Exceptions\\HttpException' => __DIR__ . '/..' . '/klein/klein/src/Klein/Exceptions/HttpException.php',
-        'Klein\\Exceptions\\HttpExceptionInterface' => __DIR__ . '/..' . '/klein/klein/src/Klein/Exceptions/HttpExceptionInterface.php',
-        'Klein\\Exceptions\\KleinExceptionInterface' => __DIR__ . '/..' . '/klein/klein/src/Klein/Exceptions/KleinExceptionInterface.php',
-        'Klein\\Exceptions\\LockedResponseException' => __DIR__ . '/..' . '/klein/klein/src/Klein/Exceptions/LockedResponseException.php',
-        'Klein\\Exceptions\\RegularExpressionCompilationException' => __DIR__ . '/..' . '/klein/klein/src/Klein/Exceptions/RegularExpressionCompilationException.php',
-        'Klein\\Exceptions\\ResponseAlreadySentException' => __DIR__ . '/..' . '/klein/klein/src/Klein/Exceptions/ResponseAlreadySentException.php',
-        'Klein\\Exceptions\\RoutePathCompilationException' => __DIR__ . '/..' . '/klein/klein/src/Klein/Exceptions/RoutePathCompilationException.php',
-        'Klein\\Exceptions\\UnhandledException' => __DIR__ . '/..' . '/klein/klein/src/Klein/Exceptions/UnhandledException.php',
-        'Klein\\Exceptions\\UnknownServiceException' => __DIR__ . '/..' . '/klein/klein/src/Klein/Exceptions/UnknownServiceException.php',
-        'Klein\\Exceptions\\ValidationException' => __DIR__ . '/..' . '/klein/klein/src/Klein/Exceptions/ValidationException.php',
-        'Klein\\HttpStatus' => __DIR__ . '/..' . '/klein/klein/src/Klein/HttpStatus.php',
-        'Klein\\Klein' => __DIR__ . '/..' . '/klein/klein/src/Klein/Klein.php',
-        'Klein\\Request' => __DIR__ . '/..' . '/klein/klein/src/Klein/Request.php',
-        'Klein\\Response' => __DIR__ . '/..' . '/klein/klein/src/Klein/Response.php',
-        'Klein\\ResponseCookie' => __DIR__ . '/..' . '/klein/klein/src/Klein/ResponseCookie.php',
-        'Klein\\Route' => __DIR__ . '/..' . '/klein/klein/src/Klein/Route.php',
-        'Klein\\RouteFactory' => __DIR__ . '/..' . '/klein/klein/src/Klein/RouteFactory.php',
-        'Klein\\ServiceProvider' => __DIR__ . '/..' . '/klein/klein/src/Klein/ServiceProvider.php',
-        'Klein\\Validator' => __DIR__ . '/..' . '/klein/klein/src/Klein/Validator.php',
+        'JsonException' => __DIR__ . '/..' . '/symfony/polyfill-php73/Resources/stubs/JsonException.php',
         'NguyenApp\\Models\\Phone' => __DIR__ . '/../..' . '/models/phone.php',
         'NguyenApp\\Models\\Product' => __DIR__ . '/../..' . '/models/product.php',
+        'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
+        'UnhandledMatchError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
+        'ValueError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

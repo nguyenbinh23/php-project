@@ -1,0 +1,27 @@
+services:
+    _defaults:
+        public: true
+
+    automapper_plus.configuration:
+        class: AutoMapperPlus\Configuration\AutoMapperConfig
+
+    automapper_plus.mapper_factory:
+        class: AutoMapperPlus\AutoMapperPlusBundle\AutoMapperFactory
+        arguments:
+            - '@automapper_plus.configuration'
+
+    automapper_plus.mapper:
+        class: AutoMapperPlus\AutoMapper
+        factory: ['@automapper_plus.mapper_factory', create]
+
+    automapper_plus.default_options_configurator:
+        public: false
+        class: AutoMapperPlus\AutoMapperPlusBundle\DependencyInjection\DefaultOptionsConfigurator
+        arguments: []
+        tags:
+            - { name: automapper_plus.configurator, priority: 999 }
+
+    # Add aliases so that autowiring works
+    AutoMapperPlus\AutoMapperInterface: '@automapper_plus.mapper'
+    AutoMapperPlus\AutoMapperPlusBundle\AutoMapperFactory: '@automapper_plus.mapper_factory'
+    AutoMapperPlus\Configuration\AutoMapperConfigInterface: '@automapper_plus.configuration'
